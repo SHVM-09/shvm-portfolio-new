@@ -330,7 +330,61 @@
         <!-- End -->
       </div>
       <!-- Navbar End -->
+
+      <!-- Hero -->
+      <div class="min-h-screen mt-40">
+        <div class="container mx-auto">
+          <div class="max-w-7xl">
+            <h1 class="text-6xl font-bold mb-10">Hi, There!</h1>
+            <h2 class="text-4xl font-bold">
+              I Am
+              <span
+                class="inputName animate-pulse bg-gradient-to-r from-violet-600 to-pink-400 bg-clip-text text-transparent"
+              ></span>
+            </h2>
+            <p class="py-6 text-lg">
+              <strong class="text-secondary">Innovative Engineer</strong> with
+              excellent
+              <strong
+                >communication, leadership , teamwork , technical
+                competence</strong
+              >
+              and
+              <strong class="text-secondary">critical thinking</strong> skills.
+              Wellrounded and organised with multi-priorities management skills,
+              Looking to take on new challenges in role as
+              <strong class="text-secondary">Web Developer</strong> in upcoming
+              future.
+              <img
+                src="/assets/shvm-hero.png"
+                alt="hero"
+                class="w-[300px] h-[500px] mx-auto object-contain float-right"
+              />
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <!-- Hero End -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script type="module" src="/src/main.ts"></script>
+    <script>
+      var typed = new Typed(".inputName", {
+        strings: [
+          "Web Developer.",
+          "React Developer.",
+          "Civil Engineer.",
+          "Learner.",
+          "Artist.",
+          "Cricketer.",
+          "Nemophilist.",
+          "Shivam Upadhyay.",
+        ],
+        typeSpeed: 100,
+        backspeed: 90,
+        loop: true,
+      });
+    </script>
   </body>
 </html>

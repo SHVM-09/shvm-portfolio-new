@@ -1,7 +1,7 @@
-const navLinksEls: NodeListOf<HTMLAnchorElement> =
+export const navLinksEls: NodeListOf<HTMLAnchorElement> =
   document.querySelectorAll(".nav-link");
 
-const windowPathName: string = window.location.pathname;
+export const windowPathName: string = window.location.pathname;
 
 navLinksEls.forEach((navLinkEl): void => {
   if (navLinkEl.href.includes(windowPathName)) {

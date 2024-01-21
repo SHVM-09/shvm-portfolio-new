@@ -5,7 +5,6 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
-  base: "./index.html", // Specify the base path for deployment
   server: {
     port: 3000, // Adjust the port as needed
   },
